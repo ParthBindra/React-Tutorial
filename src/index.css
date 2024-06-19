@@ -1,0 +1,61 @@
+*{
+
+  margin:0;
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+
+}
+
+.navbar{
+
+  padding: 20px;
+  display:flex ;
+  align-items: center;
+  max-width: 600px;
+  border-bottom: 1  px solid #f2f2f2;
+}
+
+.navbar h1{
+
+  color: blueviolet;
+}
+
+.navbar .links{
+  margin-left: auto;
+}
+
+
+.navbar a{
+
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+
+.navbar a:hover{
+  color: blueviolet;
+}
+
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding:20px ;
+}
+
+.blog-preview{
+
+  box-shadow: 1px 3px 5px rgba(red, green, blue, alpha);
+}
+
+.blog-preview:hover{
+
+
+  box-shadow: #f2f2f2;
+}
+
+.blog-preview h2{
+
+  text-decoration: none;
+  
+}
